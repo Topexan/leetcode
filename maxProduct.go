@@ -1,3 +1,5 @@
+package leetcode
+
 func maxProduct(nums []int) int {
     max := 0
     for i := 0; i < len(nums) - 1; i++ {
