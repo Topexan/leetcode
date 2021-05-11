@@ -1,0 +1,10 @@
+package leetcode
+
+func sumBase(n int, k int) int {
+	res := 0
+	for n > 0 {
+		res = res + (n % k)
+		n /= k
+	}
+	return res
+}
